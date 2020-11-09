@@ -1,0 +1,3 @@
+/home/sbergste/Projects/manuela/manuela-dev/components/iot-kafka2seldon-integration/src/main/java/com/redhat/manuela/routes/SeldonRoute.java
+/home/sbergste/Projects/manuela/manuela-dev/components/iot-kafka2seldon-integration/src/main/java/com/redhat/manuela/routes/Kafka2SeldonRoute.java
+/home/sbergste/Projects/manuela/manuela-dev/components/iot-kafka2seldon-integration/src/main/java/com/redhat/manuela/routes/Kafka2S3Route.java
