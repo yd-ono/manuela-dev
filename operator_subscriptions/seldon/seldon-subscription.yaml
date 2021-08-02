@@ -8,4 +8,4 @@ spec:
   name: seldon-operator
   source: community-operators
   sourceNamespace: openshift-marketplace
-  startingCSV: seldon-operator.v1.2.1
+  startingCSV: seldon-operator.v1.7.0
