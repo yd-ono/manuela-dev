@@ -3,9 +3,9 @@ kind: Subscription
 metadata:
   name: seldon-operator
 spec:
-  channel: alpha
+  channel: stable
   installPlanApproval: Manual
   name: seldon-operator
-  source: community-operators
+  source: certified-operators
   sourceNamespace: openshift-marketplace
   startingCSV: seldon-operator.v1.7.0
