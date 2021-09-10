@@ -29,7 +29,7 @@ spec:
     - name: url_configmapkey
       value: GIT_OPS_REPO_PROD_URL
     - name: revision
-      value: master
+      value: GIT_OPS_REPO_PROD_REVISION
     - name: subdirectory
       value: ops
     - name: deleteExisting
@@ -134,4 +134,4 @@ spec:
     - name: GIT_BRANCH_HEAD
       value: staging-approval
     - name: GIT_BRANCH_BASE
-      value: master
+      value: GIT_OPS_REPO_PROD_REVISION

@@ -17,7 +17,7 @@ spec:
     default: HTTPD_IONIC_REMOTE_IMAGE
   - name: DEV_REVISION 
     type: string 
-    default: master
+    default: GIT_DEV_REPO_REVISION
   tasks:
   - name: git-clone-dev
     taskRef:
