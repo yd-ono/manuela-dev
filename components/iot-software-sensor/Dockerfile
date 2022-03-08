@@ -1,13 +1,13 @@
 FROM registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift
-
-
-ENV MAVEN_ARGS_APPEND="" \
+LABEL "io.openshift.s2i.build.image"="registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift" \
+      "io.openshift.s2i.build.source-location"="/sources"
+ENV MAVEN_CLEAR_REPO="" \
+    MAVEN_ARGS_APPEND="" \
     MAVEN_MIRROR_URL="" \
-    MAVEN_LOCAL_REPO="/ba/m2" \
-    MAVEN_CLEAR_REPO=""
+    MAVEN_LOCAL_REPO="/ba/m2"
 USER root
 # Copying in source code
-COPY manifests pom.xml README.md src VERSION  /tmp/src/
+COPY upload/src /tmp/src
 # Change file ownership to the assemble user. Builder image must support chown command.
 RUN chown -R 1001:0 /tmp/src
 USER 1001
