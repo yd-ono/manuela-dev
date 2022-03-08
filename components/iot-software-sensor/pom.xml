@@ -25,10 +25,17 @@
 	</properties>
 
 	<dependencies>
+		<!-- mhjacks added 3/8/2022 -->
+		<dependency>
+    		<groupId>com.fasterxml</groupId>
+    		<artifactId>classmate</artifactId>
+		</dependency>
+
 		<dependency>
             <groupId>org.jboss.logging</groupId>
             <artifactId>jboss-logging</artifactId>
 		</dependency>
+		<!-- end mhjacks added 3/8/2022 -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
