@@ -18,7 +18,7 @@ spec:
   source:
     git:
       ref: master
-      uri: https://github.com/dagger-refuse-cool/manuela-dev.git
+      uri: https://github.com/yd-ono/manuela-dev.git
     type: Git
     contextDir: "components/iot-software-sensor"
   strategy:

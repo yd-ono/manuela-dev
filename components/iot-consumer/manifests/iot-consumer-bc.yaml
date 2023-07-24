@@ -16,7 +16,7 @@ spec:
   runPolicy: Serial
   source:
     git:
-      uri: https://github.com/dagger-refuse-cool/manuela-dev.git
+      uri: https://github.com/yd-ono/manuela-dev.git
     type: Git
     contextDir: "components/iot-consumer"
   strategy:

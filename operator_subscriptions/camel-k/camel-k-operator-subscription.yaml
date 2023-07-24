@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   name: red-hat-camel-k
 spec:
-  channel: techpreview
+  channel: stable
   installPlanApproval: Manual
   name: red-hat-camel-k
   source: redhat-operators
