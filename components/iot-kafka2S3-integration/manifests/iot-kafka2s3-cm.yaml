@@ -9,10 +9,10 @@ data:
     kafka.broker.topic.temperature=iot-sensor-sw-temperature
     kafka.broker.topic.vibration=iot-sensor-sw-vibration
 
-    s3.region=eu-central-1
-    s3.bucket.name=manuela
+    s3.region=
+    s3.bucket.name=s3-local-bc3276b2-c8a6-426d-8b39-75fef36bef8f
     s3.message.aggregation.count=10
     s3.custom.endpoint.enabled=true
-    s3.custom.endpoint.url=s3-openshift-storage.apps.ocp4.stormshift.coe.muc.redhat.com
+    s3.custom.endpoint.url=s3.openshift-storage.svc
 
     
