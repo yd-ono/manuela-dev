@@ -69,7 +69,7 @@ spec:
       volumes:
         - configMap:
             defaultMode: 438
-            name: iot-frontend-cfg
+            name: iot-frontend-cfg-b6gkh94656
           name: iot-frontend-cfg-vol
   test: false
   triggers:
