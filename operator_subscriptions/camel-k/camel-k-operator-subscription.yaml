@@ -3,9 +3,9 @@ kind: Subscription
 metadata:
   name: red-hat-camel-k
 spec:
-  channel: stable
-  installPlanApproval: Manual
+  channel: 1.10.x
+  installPlanApproval: Automatic
   name: red-hat-camel-k
   source: redhat-operators
   sourceNamespace: openshift-marketplace
-  startingCSV: red-hat-camel-k-operator.v1.3.3
+  startingCSV: red-hat-camel-k-operator.v1.10.1
